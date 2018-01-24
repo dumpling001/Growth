@@ -7,3 +7,5 @@
     * [第四章：朗读](Everybody_Can_Use_English/04.md)
     * [第五章：词典](Everybody_Can_Use_English/05.md)
     * [第六章：语法](Everybody_Can_Use_English/06.md)
+    * [第七章：精读](Everybody_Can_Use_English/07.md)
+    
