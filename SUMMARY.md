@@ -8,4 +8,5 @@
     * [第五章：词典](Everybody_Can_Use_English/05.md)
     * [第六章：语法](Everybody_Can_Use_English/06.md)
     * [第七章：精读](Everybody_Can_Use_English/07.md)
-    
+    * [第八章：叮嘱](Everybody_Can_Use_English/08.md)
+    * [后记](Everybody_Can_Use_English/09.md)
