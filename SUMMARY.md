@@ -10,3 +10,5 @@
     * [第七章：精读](Everybody_Can_Use_English/07.md)
     * [第八章：叮嘱](Everybody_Can_Use_English/08.md)
     * [后记](Everybody_Can_Use_English/09.md)
+* [《Buddhism and Modern Psychology》字幕翻译](Buddhism_and_Modern_Psychology/README.md)
+    * [第一讲：第一节](Buddhism_and_Modern_Psychology/01.md)
