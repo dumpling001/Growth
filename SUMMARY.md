@@ -13,3 +13,4 @@
 * [《Buddhism and Modern Psychology》字幕翻译](Buddhism_and_Modern_Psychology/README.md)
     * [第一讲：Introduction: Religious Buddhism and 'Secular' Buddhism](Buddhism_and_Modern_Psychology/01.md)
     * [第一讲：Feelings and Illusions](Buddhism_and_Modern_Psychology/02.md)
+    * [第一讲：The first Two Noble Truths](Buddhism_and_Modern_Psychology/03.md)
