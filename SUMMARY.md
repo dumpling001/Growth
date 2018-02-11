@@ -15,3 +15,4 @@
     * [第一讲：Feelings and Illusions](Buddhism_and_Modern_Psychology/02.md)
     * [第一讲：The first Two Noble Truths](Buddhism_and_Modern_Psychology/03.md)
     * [第一讲：Evolutionary Psychology and the First Two Noble Truths](Buddhism_and_Modern_Psychology/04.md)
+    * [第二讲：The Eightfold Path](Buddhism_and_Modern_Psychology/05.md)
