@@ -19,3 +19,4 @@
     * [Lecture 2：Meditation](Buddhism_and_Modern_Psychology/06.md)
     * [Lecture 2：Mindfulness Meditation and the Brain](Buddhism_and_Modern_Psychology/07.md)
     * [Lecture 2：Can Our Feelings Be Trusted](Buddhism_and_Modern_Psychology/08.md)
+    * [Lecture 3：The Buddha's Discourse on the Not-Self](Buddhism_and_Modern_Psychology/09.md)
