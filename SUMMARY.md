@@ -22,3 +22,4 @@
     * [Lecture 3：The Buddha's Discourse on the Not-Self](Buddhism_and_Modern_Psychology/09.md)
     * [Lecture 3：What did Buddha mean?](Buddhism_and_Modern_Psychology/10.md)
     * [Lecture 3：Modern Psychology and the Self](Buddhism_and_Modern_Psychology/11.md)
+    * [Lecture 4：Delusions about Ourselves](Buddhism_and_Modern_Psychology/12.md)
