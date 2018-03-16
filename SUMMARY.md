@@ -24,3 +24,4 @@
     * [Lecture 3：Modern Psychology and the Self](Buddhism_and_Modern_Psychology/11.md)
     * [Lecture 4：Delusions about Ourselves](Buddhism_and_Modern_Psychology/12.md)
     * [Lecture 4：What Mental Modules Aren't](Buddhism_and_Modern_Psychology/13.md)
+    * [Lecture 4：What Mental Modules Are](Buddhism_and_Modern_Psychology/14.md)
