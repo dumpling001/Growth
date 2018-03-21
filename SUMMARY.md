@@ -26,3 +26,4 @@
     * [Lecture 4: What Mental Modules Aren't](Buddhism_and_Modern_Psychology/13.md)
     * [Lecture 4: What Mental Modules Are](Buddhism_and_Modern_Psychology/14.md)
     * [Lecture 5: Choosing 'Selves' Through Meditation](Buddhism_and_Modern_Psychology/15.md)
+    * [Lecture 5: 'Self' Control](Buddhism_and_Modern_Psychology/16.md)
