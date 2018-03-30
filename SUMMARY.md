@@ -29,3 +29,4 @@
     * [Lecture 5: 'Self' Control](Buddhism_and_Modern_Psychology/16.md)
     * [Lecture 5: The Experience of Not-self](Buddhism_and_Modern_Psychology/17.md)
     * [Lecture 6: Not-Self as Interconnection](Buddhism_and_Modern_Psychology/18.md)
+    * [Lecture 6: Essentialism and Emptiness](Buddhism_and_Modern_Psychology/19.md)
