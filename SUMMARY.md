@@ -30,3 +30,5 @@
     * [Lecture 5: The Experience of Not-self](Buddhism_and_Modern_Psychology/17.md)
     * [Lecture 6: Not-Self as Interconnection](Buddhism_and_Modern_Psychology/18.md)
     * [Lecture 6: Essentialism and Emptiness](Buddhism_and_Modern_Psychology/19.md)
+    * [Lecture 6: Buddhist and Darwinnian Enlightenment](Buddhism_and_Modern_Psychology/20.md)
+    * [Lecture 6: A Naturalistic Religion](Buddhism_and_Modern_Psychology/21.md)
