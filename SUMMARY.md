@@ -32,3 +32,4 @@
     * [Lecture 6: Essentialism and Emptiness](Buddhism_and_Modern_Psychology/19.md)
     * [Lecture 6: Buddhist and Darwinnian Enlightenment](Buddhism_and_Modern_Psychology/20.md)
     * [Lecture 6: A Naturalistic Religion？](Buddhism_and_Modern_Psychology/21.md)
+* [理财文章摘录](Finance/sangongzi0906.md)
