@@ -33,3 +33,5 @@
     * [Lecture 6: Buddhist and Darwinnian Enlightenment](Buddhism_and_Modern_Psychology/20.md)
     * [Lecture 6: A Naturalistic Religion？](Buddhism_and_Modern_Psychology/21.md)
 * [理财文章摘录](Finance/sangongzi0906.md)
+* [Python Practice Records](Python_Practice_Records/README.md)
+    * [MainHistory](Python_Practice_Records/main_history.md)
