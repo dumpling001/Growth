@@ -79,3 +79,31 @@ Requirement already satisfied: futures in /Users/###/Library/Python/2.7/lib/pyth
 Requirement already satisfied: singledispatch in /Users/###/Library/Python/2.7/lib/python/site-packages (from tornado) (3.4.0.3)
 Requirement already satisfied: backports_abc>=0.4 in /Users/###/Library/Python/2.7/lib/python/site-packages (from tornado) (0.5)
 Requirement already satisfied: six in /Users/###/Library/Python/2.7/lib/python/site-packa
+
+
+20180403 21:32
+
+http://initd.org/psycopg/tarballs/PSYCOPG-2-7/
+Download psycopg2-2.7.1.tar.gz
+
+Position: /Users/###/Downloads
+
+
+https://www.postgresql.org/download/macosx/
+Download PostgreSQL installer, 2hours - not finished
+
+
+https://stackoverflow.com/questions/35313876/after-installing-with-pip-jupyter-command-not-found
+
+pip install jupyter
+or
+export PATH=~/anaconda2/bin:$PATH
+
+
+20180404 7:07
+Download PostgreSQL installer finished, 138MB
+Install PostgresSQL finished.
+
+Start a project:
+mkdir django
+django-admin.py startproject mysite
