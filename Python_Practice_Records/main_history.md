@@ -107,3 +107,22 @@ Install PostgresSQL finished.
 Start a project:
 mkdir django
 django-admin.py startproject mysite
+
+
+20180405 20:31
+
+mysite/
+    \__init__.py
+    manage.py
+    settings.py
+    urls.py
+->> python manage.py help
+
+Type 'manage.py help <subcommand>' for help on a specific subcommand.
+
+->> python manage.py runserver
+open http://127.0.0.1:8000/
+
+如果想和其他开发人员共享同一开发站点的话，需要做另外一些设置。
+
+The Django Book 第二章:入门 结束。
