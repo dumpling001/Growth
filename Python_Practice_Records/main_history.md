@@ -136,3 +136,11 @@ The Django Book 第二章:入门 结束。
 实现了一个动态页面。
 
 觉得下次应该把代码传到Github上去。这样可以直观地看代码上的变化和进度。
+
+2018-4-9 20:45
+Create repository in Github. And commit local code to the repository.
+
+Begin to learn chapter 4: Django Templates.
+need to use python manage.py shell in these examples, or Django will throw an exception.
+
+Next: Creating Template Objects
