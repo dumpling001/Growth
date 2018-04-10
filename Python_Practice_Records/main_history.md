@@ -144,3 +144,7 @@ Begin to learn chapter 4: Django Templates.
 need to use python manage.py shell in these examples, or Django will throw an exception.
 
 Next: Creating Template Objects
+
+2018.4.10
+
+Next: Dictionaries and Contexts
