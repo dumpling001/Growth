@@ -148,3 +148,10 @@ Next: Creating Template Objects
 2018.4.10
 
 Next: Dictionaries and Contexts
+
+2018.4.11 19:59-20:37
+Dictionaries and Contexts:
+
+Those are the fundamentals of using the Django template system: just write a template string, create a Template object, create a Context, and call the render() method.
+
+Next: Context Variable Lookup
