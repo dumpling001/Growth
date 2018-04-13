@@ -155,3 +155,12 @@ Dictionaries and Contexts:
 Those are the fundamentals of using the Django template system: just write a template string, create a Template object, create a Context, and call the render() method.
 
 Next: Context Variable Lookup
+
+20180412 20:01
+
+Next:
+Chapter 3: Django Templates - Basic Template Tags and Filters
+
+20180413 8:12
+
+NEXT: For example, if your context contains a list of (x,y) coordinates called points, you could use the following to output the list of points:
