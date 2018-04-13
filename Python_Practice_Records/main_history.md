@@ -164,3 +164,9 @@ Chapter 3: Django Templates - Basic Template Tags and Filters
 20180413 8:12
 
 NEXT: For example, if your context contains a list of (x,y) coordinates called points, you could use the following to output the list of points:
+
+20180413 20:49
+Stop to learn Django now. Keep focus on automatetheboringstuff.
+
+Finished 95%:
+https://automatetheboringstuff.com/chapter4/
