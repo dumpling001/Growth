@@ -170,3 +170,8 @@ Stop to learn Django now. Keep focus on automatetheboringstuff.
 
 Finished 95%:
 https://automatetheboringstuff.com/chapter4/
+
+20180417 20:50
+Finished 95%:
+https://automatetheboringstuff.com/chapter6/
+Chapter 6 – Manipulating Strings
