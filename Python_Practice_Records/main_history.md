@@ -175,3 +175,9 @@ https://automatetheboringstuff.com/chapter4/
 Finished 95%:
 https://automatetheboringstuff.com/chapter6/
 Chapter 6 – Manipulating Strings
+
+20180418 30min
+Chapter 7 – Pattern Matching with Regular Expressions
+https://automatetheboringstuff.com/chapter7/
+Next
+Optional Matching with the Question Mark
