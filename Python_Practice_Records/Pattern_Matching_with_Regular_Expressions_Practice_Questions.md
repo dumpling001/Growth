@@ -112,3 +112,74 @@ but not the following:
 '12,34,567' (which has only two digits between the commas)
 
 '1234' (which lacks commas)
+
+numCommas = re.compile(r'(^\d{1,3})(,\d{3})\*$')
+numCommas.search('12,34,567').group()
+
+Q21. How would you write a regex that matches the full name of someone whose last name is Nakamoto? You can assume that the first name that comes before it will always be one word that begins with a capital letter. The regex must match the following:
+
+'Satoshi Nakamoto'
+
+'Alice Nakamoto'
+
+'Robocop Nakamoto'
+
+but not the following:
+
+'satoshi Nakamoto' (where the first name is not capitalized)
+
+'Mr. Nakamoto' (where the preceding word has a nonletter character)
+
+'Nakamoto' (which has no first name)
+
+'Satoshi nakamoto' (where Nakamoto is not capitalized)
+
+
+fullName = re.compile(r'[A-Z]\\w* [A-Z]\\w*')
+mo = fullName.findall('Satoshi Nakamoto, satoshi Nakamoto, Alice Nakamoto, Nakamoto, Satoshi nakamoto, Robocop Nakamoto')
+mo.group()
+
+
+Q22. How would you write a regex that matches a sentence where the first word is either Alice, Bob, or Carol; the second word is either eats, pets, or throws; the third word is apples, cats, or baseballs; and the sentence ends with a period? This regex should be case-insensitive. It must match the following:
+
+'Alice eats apples.'
+
+'Bob pets cats.'
+
+'Carol throws baseballs.'
+
+'Alice throws Apples.'
+
+'BOB EATS CATS.'
+
+but not the following:
+
+'Robocop eats apples.'
+
+'ALICE THROWS FOOTBALLS.'
+
+'Carol eats 7 cats.'
+
+
+senRegex = re.compile(r'(Alice|Bob|Carol)\s(eats|pets|throws)\s(apples|cats|baseballs).', re.I|re.DOTALL)
+
+senRegex.findall('''Alice eats apples.'
+
+'Bob pets cats.'
+
+'Carol throws baseballs.'
+
+'Alice throws Apples.'
+
+'BOB EATS CATS.'
+
+but not the following:
+
+'Robocop eats apples.'
+
+'ALICE THROWS FOOTBALLS.'
+
+'Carol eats 7 cats.''')
+
+Test result:
+[('Alice', 'eats', 'apples'), ('Bob', 'pets', 'cats'), ('Carol', 'throws', 'baseballs'), ('Alice', 'throws', 'Apples'), ('BOB', 'EATS', 'CATS')]
