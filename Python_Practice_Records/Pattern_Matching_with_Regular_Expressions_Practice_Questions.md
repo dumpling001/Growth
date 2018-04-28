@@ -183,3 +183,79 @@ but not the following:
 
 Test result:
 [('Alice', 'eats', 'apples'), ('Bob', 'pets', 'cats'), ('Carol', 'throws', 'baseballs'), ('Alice', 'throws', 'Apples'), ('BOB', 'EATS', 'CATS')]
+
+
+#Practice Projects
+##Strong Password Detection
+```import re
+
+def strongPasswordDetection(password):
+    PasswordDetection = re.compile(r'[a-zA-Z0-9]{8,}')
+    mo = PasswordDetection.search(password)
+    if mo == None:
+        print('Your password lenth is less than 8. Please change it.')
+        return False
+
+    PasswordDetection = re.compile(r'[A-Z]')
+    mo = PasswordDetection.search(password)
+    if mo == None:
+        print('Your password did not include uppercase letter. Please change it.')
+        return False
+
+    PasswordDetection = re.compile(r'[a-z]')
+    mo = PasswordDetection.search(password)
+    if mo == None:
+        print('Your password did not include lowercase letter. Please change it.')
+        return False
+
+    PasswordDetection = re.compile(r'\d')
+    mo = PasswordDetection.search(password)
+    if mo == None:
+        print('Your password did not include lowercase letter. Please change it.')
+        return False
+
+    print('Congratulations! You have a strong password!')
+
+password1 = 'abcd'
+password2 = 'abcd12345'
+password3 = 'abcdABCD'
+password4 = '1234ABCD'
+password5 = '1234ABCDa'
+strongPasswordDetection(password1)
+strongPasswordDetection(password2)
+strongPasswordDetection(password3)
+strongPasswordDetection(password4)
+strongPasswordDetection(password5)```
+
+
+Regex Version of strip()
+
+
+```import re
+
+def stripRegex():
+        print 'please input the character you want to input.'
+        char = raw_input()
+        print char
+
+        if char:
+            regex = char
+            print regex
+
+        else:
+            regex = '^\s*|\s*$'
+            print regex
+
+
+        stringRegex = re.compile(regex)
+        print stringRegex
+        print 'please input the string you want to trim.'
+        string = raw_input()
+        print stringRegex.sub('', string)
+
+
+stripRegex()```
+
+I'm very glad that I finally figour it out and have more confidence now, and I was depressed before thinking I'm too stupid to figure it out.
+
+20180428 14:53
