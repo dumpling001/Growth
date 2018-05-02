@@ -195,3 +195,8 @@ Project: Phone Number and Email Address Extractor
 20180423 30min
 NEXT:
 Practice Questions
+
+20180503 10min
+https://automatetheboringstuff.com/chapter8/
+NEXT:
+Project: Generating Random Quiz Files
