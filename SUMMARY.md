@@ -36,3 +36,4 @@
 * [Python Practice Records](Python_Practice_Records/README.md)
     * [MainHistory](Python_Practice_Records/main_history.md)
     * [Pattern Matching with Regular Expressions Practice Questions](Python_Practice_Records/Pattern_Matching_with_Regular_Expressions_Practice_Questions.md)
+    * [Chapter 8 – Reading and Writing Files Practice Questions](Python_Practice_Records/Chapter_8_Reading_and_Writing_Files_Practice_Questions.md)
