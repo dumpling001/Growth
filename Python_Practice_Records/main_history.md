@@ -200,3 +200,7 @@ Practice Questions
 https://automatetheboringstuff.com/chapter8/
 NEXT:
 Project: Generating Random Quiz Files
+
+20180506 4-5 hours
+
+Chapter 9 – Organizing Files finished.
