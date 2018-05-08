@@ -204,3 +204,8 @@ Project: Generating Random Quiz Files
 20180506 4-5 hours
 
 Chapter 9 – Organizing Files finished.
+
+20180508 40mins
+https://automatetheboringstuff.com/chapter10/
+
+NEXT: Assertions
