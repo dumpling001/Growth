@@ -209,3 +209,37 @@ Chapter 9 – Organizing Files finished.
 https://automatetheboringstuff.com/chapter10/
 
 NEXT: Assertions
+
+
+20180515 1 hour
+
+Issue:
+ImportError: No module named pyperclip
+
+Try1:(No use)
+https://stackoverflow.com/questions/3819449/how-to-uninstall-python-2-7-on-a-mac-os-x-10-6-4
+Remove the symbolic links in /usr/local/bin that point to this Python version see ls -l /usr/local/bin | grep '../Library/Frameworks/Python.framework/Versions/2.7' and then run the following command to remove all the links:
+
+cd /usr/local/bin/
+ls -l /usr/local/bin | grep '../Library/Frameworks/Python.framework/Versions/2.7' | awk '{print $9}' | tr -d @ | xargs rm
+I
+
+Try2(Real solution):
+
+Install python3
+Step1: Download
+https://www.python.org/downloads/release/python-365/
+
+Step2: Install
+
+Step3: pip3 install --upgrade pip
+
+Step4: python3 -m pip install pyperclip
+
+Rerun, succeeded.
+
+NEXT:
+
+https://automatetheboringstuff.com/chapter11/
+
+Downloading a Web Page with the requests.get() Function
