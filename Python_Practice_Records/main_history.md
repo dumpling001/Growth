@@ -243,3 +243,23 @@ NEXT:
 https://automatetheboringstuff.com/chapter11/
 
 Downloading a Web Page with the requests.get() Function
+
+20180516:
+
+NEXT:
+Saving Downloaded Files to the Hard Drive
+
+In Chrome and Internet Explorer for Windows, the developer tools are already installed, and you can press F12 to make them appear. Pressing F12 again will make the developer tools disappear. In Chrome, you can also bring up th developer tools by selecting View->Developer->Developer Tools. In OS X, pressing Command -OPTION-I will open Chrome's Developer Tools.
+
+import os
+os.getcwd()
+os.chdir('/Users/xxx/Applications')
+
+Correct:
+exampleSoup = bs4.BeautifulSoup(exampleFile, "html.parser")
+
+Incorrect:
+exampleSoup = bs4.BeautifulSoup(exampleFile)
+
+NEXT:
+Finding an Element with the select() Method
