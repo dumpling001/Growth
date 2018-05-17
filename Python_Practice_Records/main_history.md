@@ -263,3 +263,17 @@ exampleSoup = bs4.BeautifulSoup(exampleFile)
 
 NEXT:
 Finding an Element with the select() Method
+
+20180517:
+
+I encounter a issue this morning:
+
+len(elems) is 0, I tried many ways but failed. Tonight I checked example.html, and found it was blan, which is very strange. I copy the content to it, then run commands, it works. I wonder why I didn't use this way this morning and waste my precious 15 minutes.
+
+Path is important.
+```python
+#! /usr/bin/env python3
+```
+chmod +x lucky.py
+
+./lucky.py how to get a high paid job
