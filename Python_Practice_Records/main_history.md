@@ -277,3 +277,66 @@ Path is important.
 chmod +x lucky.py
 
 ./lucky.py how to get a high paid job
+
+20180519:
+
+NEXT:
+Controlling the Browser with the selenium Module
+
+20180520
+
+Issue1:
+Q: How to find file path in OS X?
+A: Option + Space
+-> "Show all in Finder" at the bottom of the poped-up window
+-> select the target file -> right-click, select "Get Info"
+-> Copy the Where info
+-> Done.
+
+Issue 2:
+Q: How to use chromedriver in python3?
+A:
+```python
+>>> from selenium import webdriver
+>>> driver_path = "/usr/local/bin/chromedriver"
+>>> driver = webdriver.Chrome(driver_path)
+```
+
+Issue 3: zsh: bad assignment
+
+Solution:
+Removed the extra white spaces before and after the = and it worked.
+
+Help post:
+Installing ChromeDriver on macOS & System PATH Setup
+https://www.kenst.com/2015/03/installing-chromedriver-on-mac-osx/
+
+New way to install ChromeDriver:
+brew tap caskroom/cask
+brew cask install chromedriver
+
+Issue 4: Error: It seems there is already a Binary at '/usr/local/bin/chromedriver'; not linking.
+
+Solution:
+rm -rf /usr/local/bin/chromedriver
+
+The selenium part didn't finish very good because encountering many issues, one of which is environment variable setting.
+
+Feel depressed. Anyway, will move to the next chapter.
+
+20180521
+
+https://automatetheboringstuff.com/chapter12/
+
+Chapter 12 – Working with Excel Spreadsheets
+
+pip3 install openpyxl==2.1.4
+pip3 install --upgrade openpyxl
+
+import os
+os.getcwd()
+os.chdir(path)
+
+NEXT:
+
+Converting Between Column Letters and Numbers
