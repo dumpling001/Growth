@@ -346,6 +346,10 @@ Converting Between Column Letters and Numbers
 NEXT:
 Ideas for Similar Programs (The first one.)
 
-Issue:
+Issue: ModuleNotFoundError: No module named 'census2010'
 
-ModuleNotFoundError: No module named 'census2010'
+Unresolved.
+
+Issue: DeprecationWarning: Call to deprecated function get_sheet_by_name (Use wb[sheetname]).
+
+Solution: Use: sheet = wb["UseThisSheet"] instead.
