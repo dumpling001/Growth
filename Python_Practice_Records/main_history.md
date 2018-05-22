@@ -340,3 +340,12 @@ os.chdir(path)
 NEXT:
 
 Converting Between Column Letters and Numbers
+
+20180522:
+
+NEXT:
+Ideas for Similar Programs (The first one.)
+
+Issue:
+
+ModuleNotFoundError: No module named 'census2010'
