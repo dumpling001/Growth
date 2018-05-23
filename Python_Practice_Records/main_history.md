@@ -353,3 +353,24 @@ Unresolved.
 Issue: DeprecationWarning: Call to deprecated function get_sheet_by_name (Use wb[sheetname]).
 
 Solution: Use: sheet = wb["UseThisSheet"] instead.
+
+
+20180523:
+
+```python
+>>> wb.get_sheet_names()
+
+Warning (from warnings module):
+  File "/Users/liuhuajiao/readCensusExcel.py", line 1
+    #! python3
+DeprecationWarning: Call to deprecated function get_sheet_names (Use wb.sheetnames).
+['Sheet']
+>>> wb.sheetnames
+['Sheet']
+```
+
+DeprecationWarning: Call to deprecated function remove_sheet (Use wb.remove(worksheet) or del wb[sheetname]).
+
+NEXT: Writing Values to Cells
+
+NEXT: Ideas for Similar Programs (The second one.)
