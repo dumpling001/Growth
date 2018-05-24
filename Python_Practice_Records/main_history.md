@@ -374,3 +374,9 @@ DeprecationWarning: Call to deprecated function remove_sheet (Use wb.remove(work
 NEXT: Writing Values to Cells
 
 NEXT: Ideas for Similar Programs (The second one.)
+
+20180524:
+
+NEXT: Font Objects
+
+NEXT: Practice Questions
