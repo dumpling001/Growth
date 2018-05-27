@@ -380,3 +380,9 @@ NEXT: Ideas for Similar Programs (The second one.)
 NEXT: Font Objects
 
 NEXT: Practice Questions
+
+20180527
+
+Chapter 14 – Working with CSV Files and JSON Data
+
+NEXT: Writer Objects
