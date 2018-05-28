@@ -386,3 +386,9 @@ NEXT: Practice Questions
 Chapter 14 – Working with CSV Files and JSON Data
 
 NEXT: Writer Objects
+
+20180528
+
+NEXT:
+
+Project: Removing the Header from CSV Files
