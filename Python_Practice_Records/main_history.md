@@ -392,3 +392,9 @@ NEXT: Writer Objects
 NEXT:
 
 Project: Removing the Header from CSV Files
+
+20180531:
+
+NEXT:
+
+Practice Questions
