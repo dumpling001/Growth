@@ -398,3 +398,11 @@ Project: Removing the Header from CSV Files
 NEXT:
 
 Practice Questions
+
+20180620:
+
+Restart learning Django.
+
+20180621:
+
+NEXT: 《python编程：从入门到实践》18-1 新项目
