@@ -410,3 +410,16 @@ NEXT: 《python编程：从入门到实践》18-1 新项目
 20180622:
 
 NEXT: 《python编程：从入门到实践》18-2 创建应用程序
+
+20180623:
+
+mkdir newdirector
+cd newdirector
+python3 -m venv new_env
+source new_env/bin/activate
+pip install Django
+django-admin startproject newprojectname .
+python manage.py migrate
+python manage.py runserver (8000)
+
+NEXT: 18.2.4 定义模型Entry
