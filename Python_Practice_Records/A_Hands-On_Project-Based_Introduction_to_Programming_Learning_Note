@@ -1,0 +1,95 @@
+20180620:
+
+Restart learning Django.
+
+20180621:
+
+NEXT: 《python编程：从入门到实践》18-1 新项目
+
+20180622:
+
+NEXT: 《python编程：从入门到实践》18-2 创建应用程序
+
+20180623:
+
+mkdir newdirector
+cd newdirector
+python3 -m venv new_env
+source new_env/bin/activate
+pip install Django
+django-admin startproject newprojectname .
+python manage.py migrate
+python manage.py runserver (8000)
+
+NEXT: 18.2.4 定义模型Entry
+
+20180630:
+
+Issue1: TypeError: \_\_init\_\_() missing 1 required positional argument: 'on_delete'
+
+Solution: meal = models.ForeignKey(Meal, on_delete=models.CASCADE,)
+
+Issue2: def \_\_str\_\_(self):
+
+not def \_str\_(self):
+
+Issue3:
+
+ImproperlyConfigured: Specifying a namespace in include() without providing an app_name is not supported.
+
+Solution: add
+> app_name = 'learning_logs'
+
+in urls.py
+
+20180701:
+
+mkdir pizzeria
+cd pizzeria
+python3 -m venv p_env
+source p_env/bin/activate
+python install Django
+django-admin startproject pizzeria .
+python manage.py migrate
+python manage.py runserver 8005
+
+Issue1:
+typo:
+
+> return render(request, 'learning_logs/topics.html', context)
+
+not
+
+>     return render(request, 'learning_logs/topic.html', context)
+
+e.g., topics.html, not topic.html
+
+Issue2:
+>Could not parse the remainder: ': 'M d, Y H:i'' from 'entry.date_added|date: 'M d, Y H:i''
+
+Solution:
+Remove the space after the colon:
+
+>'entry.date_added|date:'M d, Y H:i''
+
+
+Issue3: Remove VPN configuration:
+
+Solution:
+To remove the VPN Profile from your Mac:
+
+System Preference > Profile > Vpn One Click > Remove.
+
+July-14-2018
+
+Issue1:
+NameError: name 'include' is not defined
+
+Solution:
+from django.conf.urls import include
+
+Issue2:
+How to find files via the OS X Terminal
+
+Solution:
+mdfind NAME
